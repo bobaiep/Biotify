@@ -16,10 +16,11 @@ else:
 
     while(1):
         result = sp.current_user_playing_track()
+        print(result)
         if result:
             track = result['item']["name"]
             album = result['item']['album']['name']
-            artist = result['item']['album']['artists'][0]['name']
+            artist = result['item']['artists'][0]['name']
 
             pretty_str_playing = f"Currently listening : {track} - {album} by {artist}"
 
