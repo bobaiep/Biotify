@@ -6,7 +6,7 @@ from spotipy.oauth2 import SpotifyOAuth
 args = sys.argv
 
 if len(args) != 2:
-    print('Usage: spotify-bio-updater twitter-username')
+    print('Usage: biotify twitter-username')
 
 else:
     scope = "user-read-currently-playing"
@@ -21,7 +21,7 @@ else:
             album = result['item']['album']['name']
             artist = result['item']['album']['artists'][0]['name']
 
-            pretty_str_playing = f"Currently listening : {track}, {album} by {artist}"
+            pretty_str_playing = f"Currently listening : {track} - {album} by {artist}"
 
             print(pretty_str_playing)
 
