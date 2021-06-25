@@ -1,7 +1,7 @@
 # Welcome to Twitter Biotify 👋
 ![Version](https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000)
 
-> A python bot designed to update your twitter bio with the current listening track on Spotify
+> A python bot designed to update your Twitter bio with the current listening track on Spotify
 
 ## Dependecies
 - [Spotipy](https://github.com/plamere/spotipy)
