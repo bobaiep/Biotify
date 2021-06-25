@@ -16,7 +16,6 @@ else:
 
     while(1):
         result = sp.current_user_playing_track()
-        print(result)
         if result:
             track = result['item']["name"]
             album = result['item']['album']['name']
