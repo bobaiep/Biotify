@@ -15,7 +15,7 @@
     - SPOTIPY_REDIRECT_URI
 4. Run:
 ```sh
-py spotifyStatus.py twitter-username
+py biotify.py twitter-username
 ```
 
 ## Author
