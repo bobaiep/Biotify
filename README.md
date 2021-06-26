@@ -9,7 +9,7 @@
 
 ## Run
 1. Create an app on [Spotify for Developpers's Dashboard](https://developer.spotify.com/dashboard/)
-2. [Install Spotipy](https://spotipy.readthedocs.io/en/2.18.0/#installation) and [Rauth](https://github.com/litl/rauth#installation)
+2. Install [Spotipy](https://spotipy.readthedocs.io/en/2.18.0/#installation) and [Rauth](https://github.com/litl/rauth#installation)
 3. Set the environment variables :
     - SPOTIPY_CLIENT_ID
     - SPOTIPY_CLIENT_SECRET
