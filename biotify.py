@@ -108,6 +108,9 @@ if __name__ == '__main__' :
         session.run()
     except Exception as err:
         print("[Error] {}".format(err))
+        print("Setting the default bio back !")
+        print("Thank you for using biotify, see you soon !")
+        session.set_bio(session.default_bio)
     except KeyboardInterrupt:
         print("Setting the default bio back !")
         print("Thank you for using biotify, see you soon !")
