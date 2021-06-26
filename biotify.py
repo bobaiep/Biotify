@@ -93,6 +93,7 @@ class biotify:
                     print("Idlinng for more than 5min, setting the default bio back !")
                     sleep(1)
                     self.set_bio(self.default_bio)
+                    last_track = ""
                     idle_time = -1
 
                 last_track = track
@@ -102,6 +103,7 @@ class biotify:
                     print("Idling or Error, setting the default bio back !")
                     sleep(1)
                     self.set_bio(self.default_bio)
+                    last_track = ""
 
             sleep(10)
 
