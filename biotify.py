@@ -79,6 +79,7 @@ class biotify:
                     boo = 0
                     idle_time = 0
                     self.current_bio = self.default_bio + "\n" + pretty_str_playing
+                    sleep(0.5)
                     self.set_bio(self.current_bio)
                     print(pretty_str_playing)
                 elif boo != 1 and not result["is_playing"]:
@@ -90,6 +91,7 @@ class biotify:
                         idle_time += 1
                 elif boo == 1 and idle_time != -1:
                     print("Idlinng for more than 5min, setting the default bio back !")
+                    sleep(0.5)
                     self.set_bio(self.default_bio)
                     idle_time = -1
 
@@ -98,6 +100,7 @@ class biotify:
                 if boo == 0 and last_track != "":
                     boo = 2
                     print("Idling or Error, setting the default bio back !")
+                    sleep(0.5)
                     self.set_bio(self.default_bio)
 
             sleep(10)
